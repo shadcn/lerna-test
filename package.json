@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "www",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
