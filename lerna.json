@@ -1,8 +1,11 @@
 {
   "version": "independent",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
+  "publish": {
+    "allowBranch": "master",
+    "conventionalCommits": true,
+    "message": "chore(release): publish"
+  },
   "npmClient": "yarn",
   "useWorkspaces": true
 }
