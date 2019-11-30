@@ -9,7 +9,8 @@ for folder in $GLOB; do
   [ -d "$folder" ] || continue # only directories
   cd $BASE
 
-  NAME=$(jq -r '.name' $folder/package.json)
+  # NAME=$(jq -r '.name' $folder/package.json)
+  NAME=${folder##*/}
   CLONE_DIR="__${NAME}__clone__"
   
   # sync to read-only clones
@@ -28,4 +29,5 @@ for folder in $GLOB; do
   fi
 
   cd $BASE
+  rm -rf $CLONE_DIR
 done

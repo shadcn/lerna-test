@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "starters:update": "./scripts/staters-update.sh \"packages/*\""
+    "starters:update": "./scripts/starters-update.sh \"packages/*\"",
+    "release": "lerna publish && yarn starters:publish"
   },
   "devDependencies": {
     "lerna": "^3.19.0",
