@@ -1,1 +1,1 @@
-exports.world = () => `World!ss`
+exports.world = () => `World!`
