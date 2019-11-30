@@ -1,11 +1,11 @@
 {
   "name": "@arshad/www",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@arshad/hello": "^1.0.2",
+    "@arshad/hello": "^1.0.3",
     "@arshad/world": "^1.0.2"
   }
 }
