@@ -5,6 +5,9 @@
     "www",
     "packages/*"
   ],
+  "scripts": {
+    "starters:update": "./scripts/staters-update.sh \"packages/*\""
+  },
   "devDependencies": {
     "lerna": "^3.19.0",
     "@commitlint/cli": "^8.2.0",
